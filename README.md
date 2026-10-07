@@ -13,7 +13,7 @@ Plus fluide, plus claire, plus agréable à utiliser. Le même outil, en mieux.
 
 ---
 
-## 👋 Bienvenue ##
+## 👋 Bienvenue 
 
 BitMatrix est un petit atelier pour ceux qui aiment comprendre ce qui se passe vraiment sous le capot d'un nombre.
 
@@ -23,7 +23,7 @@ Tout fonctionne dans votre navigateur. Pas d'installation, pas de serveur, pas d
 
 ---
 
-##🎉 Ce qui a changé ##
+##🎉 Ce qui a changé 
 
 Cette version n'est pas une simple retouche — c'est une refonte complète de l'expérience. Voici ce que vous allez remarquer dès la première seconde :
 
@@ -47,7 +47,7 @@ Chaque résultat peut être copié d'un seul geste. Chaque bit de la représenta
 
 ---
 
-##✨ Ce que vous trouverez ##
+## ✨ Ce que vous trouverez 
 
 Convertir, dans les trois sens.
 Vous tapez 10.625 en décimal, et vous voyez aussitôt 1010.101 en binaire et A.A en hexadécimal. Vous tapez dans n'importe quel champ — les deux autres se mettent à jour tout seuls. Les nombres à virgule sont acceptés, et les étapes du calcul s'affichent pour que vous compreniez d'où vient chaque chiffre.
@@ -66,7 +66,7 @@ Une pluie de matrice animée en arrière-plan, une palette améthyste, des lueur
 
 ---
 
-##🧭 Comment ça marche ##
+## 🧭 Comment ça marche 
 
 1. Convertir un nombre.
 Cherchez l'onglet Converter. Tapez votre valeur dans le champ qui vous arrange — décimal, binaire ou hexadécimal. Les autres se remplissent immédiatement, et les étapes apparaissent juste en dessous. Un bouton Reset efface tout si vous voulez repartir de zéro.
@@ -84,7 +84,7 @@ C'est tout. L'outil ne demande rien, ne garde rien ailleurs, et ne vous impose a
 
 ---
 
-##🛠️ Petits coups de main
+## 🛠️ Petits coups de main
 
 « Invalid decimal number » ?
 Vérifiez que vous n'avez utilisé que des chiffres et un point décimal. La virgule n'est pas acceptée — c'est 10.625, pas 10,625.
@@ -111,7 +111,7 @@ Si votre système est réglé pour réduire les animations, BitMatrix les désac
 
 <div align="center">
 
-##📞 Une question, une idée ? ##
+## 📞 Une question, une idée ? 
 
 https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white
 https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white
