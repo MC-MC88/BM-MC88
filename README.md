@@ -13,7 +13,7 @@ Plus fluide, plus claire, plus agréable à utiliser. Le même outil, en mieux.
 
 ---
 
-##👋 Bienvenue
+## 👋 Bienvenue ##
 
 BitMatrix est un petit atelier pour ceux qui aiment comprendre ce qui se passe vraiment sous le capot d'un nombre.
 
