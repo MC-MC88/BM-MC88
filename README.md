@@ -1,125 +1,197 @@
+<h2 id="français">🇫🇷 Version française</h2>
+
 <div align="center">
 
-🧮 BitMatrix — MC88
+# 🎯 BitMatrix — MC88
 
-Voir les nombres sous toutes leurs formes.
+**Convertisseur de bases et IEEE 754.**
 
-<br />
+</div>
 
-✨ Nouvelle version — entièrement repensée.
-Plus fluide, plus claire, plus agréable à utiliser. Le même outil, en mieux.
+🌍 **Langues :** [Français](#français) · [English](#english)
 
+---
+
+> **En bref** — Un atelier web pour convertir décimal, binaire, hexadécimal, et explorer la norme IEEE 754.
+> 
+> **Conversion · IEEE 754 · Arithmétique**
+
+<!-- 
+## 📸 Aperçu
+
+<div align="center">
+  <img src="https://github.com/mohamed005cheikh-rgb/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
 </div>
 
 ---
 
-## 👋 Bienvenue 
+🔗 **Démo en ligne :** [https://...](https://...)
+📦 **Code source :** [https://github.com/mohamed005cheikh-rgb/[REPO]](https://github.com/mohamed005cheikh-rgb/[REPO])
+-->
 
-BitMatrix est un petit atelier pour ceux qui aiment comprendre ce qui se passe vraiment sous le capot d'un nombre.
+## 👋 Bienvenue
 
-Vous entrez une valeur — dans n'importe quelle base — et vous la voyez apparaître sous toutes ses autres formes : binaire, hexadécimal, décimal. Vous voulez savoir comment un ordinateur stocke 5.75 en mémoire ? Le calculateur IEEE 754 vous le montre, bit par bit. Vous voulez additionner deux nombres en binaire, à la main ? L'outil le fait pour vous, et vous montre chaque étape.
-
-Tout fonctionne dans votre navigateur. Pas d'installation, pas de serveur, pas de compte. Vous ouvrez, vous explorez, vous fermez.
-
----
-
-##🎉 Ce qui a changé 
-
-Cette version n'est pas une simple retouche — c'est une refonte complète de l'expérience. Voici ce que vous allez remarquer dès la première seconde :
-
-Une interface enfin à la hauteur.
-Fini les petits symboles génériques et les icônes qui jurent. Chaque bouton, chaque section, chaque indicateur a désormais sa propre identité visuelle, dessinée sur mesure. L'ensemble respire, s'aligne, et se laisse parcourir du regard sans effort.
-
-Trois espaces, une seule logique.
-Le convertisseur, le calculateur IEEE 754 et les opérations arithmétiques vivent maintenant chacun dans leur propre onglet. Vous passez de l'un à l'autre d'un clic, sans faire défiler ni chercher. Chaque outil a son espace, chaque espace a sa fonction.
-
-Une navigation qui glisse.
-Les animations sont partout, mais discrètes — un onglet qui se déplace, un résultat qui pulse doucement quand il change, un champ qui s'illumine quand vous le touchez. Rien de tapageur. Juste ce qu'il faut pour que l'outil se sente vivant.
-
-Zéro lag, même sur mobile.
-La pluie de matrice en arrière-plan a été allégée pour ne plus jamais ralentir l'appareil. Les animations s'adaptent à la puissance de votre machine, et si vous préférez le calme, tout se met en pause quand vous ne regardez pas.
-
-Un historique qui prend de la place.
-Vos trente dernières conversions restent à portée de main dans la barre latérale (au lieu de douze). Un clic, et n'importe quelle entrée revient dans le convertisseur. Un bouton, et tout s'efface.
-
-Des détails qui comptent.
-Chaque résultat peut être copié d'un seul geste. Chaque bit de la représentation IEEE 754 est coloré selon sa fonction (signe, exposant, mantisse). Chaque erreur vous dit précisément ce qui ne va pas, sans jargon inutile.
+BitMatrix est un atelier web pour comprendre les nombres. Vous convertissez entre décimal, binaire et hexadécimal. Vous visualisez la représentation IEEE 754 d'un nombre réel. Vous faites des opérations directement en base 2 ou 16. Tout fonctionne dans le navigateur, sans installation ni compte.
 
 ---
 
-## ✨ Ce que vous trouverez 
+## ✨ Ce que vous trouverez
 
-Convertir, dans les trois sens.
-Vous tapez 10.625 en décimal, et vous voyez aussitôt 1010.101 en binaire et A.A en hexadécimal. Vous tapez dans n'importe quel champ — les deux autres se mettent à jour tout seuls. Les nombres à virgule sont acceptés, et les étapes du calcul s'affichent pour que vous compreniez d'où vient chaque chiffre.
+**Conversion dans les trois sens.**  
+Vous tapez dans n'importe quel champ — décimal, binaire ou hexadécimal — et les deux autres se mettent à jour. Les nombres à virgule sont acceptés. Les étapes du calcul s'affichent.
 
-Voir un nombre flottant, bit par bit.
-Entrez 5.75, et l'outil vous montre comment il est réellement stocké en mémoire — en simple précision (32 bits) comme en double précision (64 bits). Le signe, l'exposant, la mantisse : chacun affiché séparément, avec sa valeur hexadécimale complète (0x40B80000 pour 5.75 en 32 bits). Chaque partie est colorée pour que votre œil distingue immédiatement les trois zones. Une façon limpide de comprendre la norme IEEE 754 sans se perdre dans un manuel.
+**Visualisation IEEE 754.**  
+Entrez un nombre réel. L'outil affiche sa représentation 32 bits et 64 bits. Le signe, l'exposant et la mantisse sont séparés et colorés. Chaque hexadécimal est copiable d'un clic.
 
-Calculer directement en binaire et en hexadécimal.
-Addition, soustraction, multiplication, division — sur des nombres écrits en base 2 ou en base 16. Vous entrez les deux opérandes, vous choisissez l'opérateur, et le résultat s'affiche dans la même base, avec les étapes détaillées. Vous basculez entre binaire et hexadécimal d'un clic, sans retaper vos valeurs.
+**Arithmétique binaire et hexadécimale.**  
+Addition, soustraction, multiplication, division. Vous choisissez la base, entrez les deux opérandes, et le résultat s'affiche dans la même base avec les étapes.
 
-Un historique qui se souvient.
-Vos trente dernières conversions restent dans la barre latérale, prêtes à être rechargées d'un clic. Vous pouvez les comparer, y revenir plus tard, ou tout effacer d'un seul bouton.
+**Historique local.**  
+Vos trente dernières conversions restent dans la barre latérale. Elles sont conservées dans votre navigateur. Un bouton les efface.
 
-Une ambiance qui invite à jouer.
-Une pluie de matrice animée en arrière-plan, une palette améthyste, des lueurs discrètes — l'outil est aussi agréable à regarder qu'à utiliser. Et sur mobile, tout s'allège automatiquement pour rester fluide.
+**Trois onglets.**  
+Converter pour les bases, IEEE 754 pour les flottants, Arithmetic pour les opérations. Les onglets glissent avec une animation discrète.
 
 ---
 
-## 🧭 Comment ça marche 
+## 🧭 Comment ça marche
 
-1. Convertir un nombre.
-Cherchez l'onglet Converter. Tapez votre valeur dans le champ qui vous arrange — décimal, binaire ou hexadécimal. Les autres se remplissent immédiatement, et les étapes apparaissent juste en dessous. Un bouton Reset efface tout si vous voulez repartir de zéro.
+**1. Convertir un nombre.**  
+Onglet Converter. Tapez dans le champ qui vous arrange. Les autres se remplissent immédiatement.
 
-2. Explorer un flottant.
-Passez à l'onglet IEEE 754, puis entrez un nombre réel (positif ou négatif). Vous obtenez aussitôt sa représentation 32 bits et 64 bits, avec la décomposition Signe / Exposant / Mantisse colorée pour bien distinguer chaque partie, et chaque hexadécimal prêt à être copié.
+**2. Explorer un flottant.**  
+Onglet IEEE 754. Entrez un nombre réel. Les représentations 32 bits et 64 bits s'affichent avec la décomposition Signe / Exposant / Mantisse.
 
-3. Faire une opération.
-Ouvrez l'onglet Arithmetic, choisissez votre base (binaire ou hexadécimal), entrez le premier opérande, sélectionnez l'opérateur, entrez le second, et cliquez sur Compute. Le résultat s'affiche dans la même base que vos entrées, accompagné des étapes de calcul.
+**3. Faire une opération.**  
+Onglet Arithmetic. Choisissez la base (binaire ou hexadécimal), entrez les deux opérandes, sélectionnez l'opérateur, cliquez sur Compute.
 
-4. Retrouver une conversion.
-Cliquez sur n'importe quelle entrée de l'historique pour la recharger dans le convertisseur. Le bouton de la corbeille vide la liste quand vous voulez repartir à zéro.
+**4. Retrouver une conversion.**  
+Cliquez sur une entrée de l'historique pour la recharger dans le convertisseur.
 
-C'est tout. L'outil ne demande rien, ne garde rien ailleurs, et ne vous impose aucune étape inutile.
+C'est tout. L'outil ne demande rien et ne garde rien ailleurs.
 
 ---
 
 ## 🛠️ Petits coups de main
 
-« Invalid decimal number » ?
-Vérifiez que vous n'avez utilisé que des chiffres et un point décimal. La virgule n'est pas acceptée — c'est 10.625, pas 10,625.
+**"Invalid decimal number" ?**  
+Utilisez uniquement des chiffres et un point décimal. La virgule n'est pas acceptée — écrivez 10.625, pas 10,625.
 
-« Invalid binary » ?
+**"Invalid binary" ?**  
 En binaire, il n'existe que deux chiffres : 0 et 1. Si vous voyez un 2, c'est qu'il y a un problème.
 
-« Invalid hex » ?
+**"Invalid hex" ?**  
 En hexadécimal, on va de 0 à 9, puis de A à F. Les lettres G et au-delà n'existent pas dans cette base.
 
-Le résultat IEEE 754 affiche Invalid ?
-Vérifiez que votre entrée est bien un nombre réel — par exemple 5.75 ou -12.625. Les caractères spéciaux ne sont pas acceptés.
+**L'historique disparaît ?**  
+En navigation privée, le stockage local est désactivé. En fenêtre normale, vos conversions restent tant que vous ne videz pas le cache.
 
-L'historique disparaît ?
-En navigation privée, le stockage local est désactivé — c'est normal. En fenêtre normale, vos conversions restent tant que vous ne videz pas le cache.
+---
 
-La pluie de matrice ralentit l'appareil ?
-Sur mobile, l'animation s'allège automatiquement. Si cela reste gênant, fermez les autres onglets gourmands — ou laissez l'onglet ouvert sans y toucher, il se calme tout seul.
+<br /><br /><br />
 
-Les animations me dérangent ?
-Si votre système est réglé pour réduire les animations, BitMatrix les désactive automatiquement. Le confort avant tout.
+<h2 id="english">🇬🇧 English version</h2>
+
+<div align="center">
+
+# 🎯 BitMatrix — MC88
+
+**Base and IEEE 754 converter.**
+
+</div>
+
+🌍 **Languages:** [Français](#français) · [English](#english)
+
+---
+
+> **In short** — A web workshop to convert decimal, binary, hexadecimal, and explore IEEE 754.
+> 
+> **Conversion · IEEE 754 · Arithmetic**
+
+<!-- 
+## 📸 Preview
+
+<div align="center">
+  <img src="https://github.com/mohamed005cheikh-rgb/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Live demo:** [https://...](https://...)
+📦 **Source code:** [https://github.com/mohamed005cheikh-rgb/[REPO]](https://github.com/mohamed005cheikh-rgb/[REPO])
+-->
+
+## 👋 Welcome
+
+BitMatrix is a web workshop to understand numbers. You convert between decimal, binary and hexadecimal. You visualize the IEEE 754 representation of a real number. You do operations directly in base 2 or 16. Everything runs in the browser, no install, no account.
+
+---
+
+## ✨ What you'll find
+
+**Three-way conversion.**  
+You type in any field — decimal, binary or hexadecimal — and the other two update. Decimal numbers are accepted. Calculation steps are shown.
+
+**IEEE 754 visualization.**  
+Enter a real number. The tool shows its 32-bit and 64-bit representations. Sign, exponent and mantissa are separated and colored. Each hex value is copyable with one click.
+
+**Binary and hexadecimal arithmetic.**  
+Addition, subtraction, multiplication, division. You pick the base, enter both operands, and the result shows in the same base with steps.
+
+**Local history.**  
+Your last thirty conversions stay in the sidebar. They are kept in your browser. One button clears them.
+
+**Three tabs.**  
+Converter for bases, IEEE 754 for floats, Arithmetic for operations. Tabs slide with a subtle animation.
+
+---
+
+## 🧭 How it works
+
+**1. Convert a number.**  
+Converter tab. Type in the field that suits you. The others fill immediately.
+
+**2. Explore a float.**  
+IEEE 754 tab. Enter a real number. The 32-bit and 64-bit representations appear with the Sign / Exponent / Mantissa breakdown.
+
+**3. Do an operation.**  
+Arithmetic tab. Pick the base (binary or hexadecimal), enter both operands, select the operator, click Compute.
+
+**4. Reload a conversion.**  
+Click an entry in the history to reload it in the converter.
+
+That's it. The tool asks for nothing and keeps nothing elsewhere.
+
+---
+
+## 🛠️ A little help
+
+**"Invalid decimal number"?**  
+Use only digits and a decimal point. The comma is not accepted — write 10.625, not 10,625.
+
+**"Invalid binary"?**  
+In binary, there are only two digits: 0 and 1. If you see a 2, there is a problem.
+
+**"Invalid hex"?**  
+In hexadecimal, it goes from 0 to 9, then A to F. Letters G and beyond do not exist in this base.
+
+**The history disappears?**  
+In private browsing, local storage is disabled. In a normal window, your conversions stay until you clear the cache.
 
 ---
 
 <div align="center">
 
-## 📞 Une question, une idée ? 
+### 📞 Une question, une idée ? / A question, an idea?
 
-https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white
-https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white
+[![Email](https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamed005cheikh@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/22230726475)
+[![GitHub](https://img.shields.io/badge/GitHub-MC--MC88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MC-MC88)
 
 <br />
 
-Bonnes conversions.
+*Convertissez. / Convert.*
 
-<sub>© 2026 Mohamed Cheikh — MC88</sub>
+<sub>MIT License · © 2026 Mohamed Cheikh — MC88</sub>
 
 </div>
